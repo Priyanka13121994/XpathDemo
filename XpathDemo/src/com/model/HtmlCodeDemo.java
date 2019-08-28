@@ -19,6 +19,7 @@ public class HtmlCodeDemo
 	    //To get the Current url
 	    String url=driver.getCurrentUrl();
 	    System.out.println("The current url of the webpage is "+url);
+	    System.out.println("The current url is"+url);
 	    
 	    //To send the data in the username text box
 	    WebElement username=driver.findElement(By.xpath("//div[@class='container']/child::input[@placeholder='Enter username']"));
